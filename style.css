@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, steelblue, blue, steelblue);
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1), 6px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  text-align: center;
+  width: 600px;
+}
+
+h3 {
+  color: #fff;
+}
+
+textarea {
+  font-family: inherit;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.01);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  resize: none;
+}
+
+textarea:focus {
+  outline: 0;
+}
+.tags {
+  width: 100%;
+  margin: 1rem 0 0.5rem;
+  color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: orange;
+  padding: 0.2rem 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), 2px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.highlighted {
+  background-color: green;
+  color: #fff;
+}
